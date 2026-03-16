@@ -1,1 +1,1 @@
-conda create --name myenv --file spec-file.txt --prefix ./.conda
+conda env create -f ./environment.yaml --prefix ./.conda
